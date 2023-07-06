@@ -1,0 +1,99 @@
+* {
+    background-color:#f14abf;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:#301934;
+}
+
+nav p {
+    text-decoration: underline;
+    font-family: "Permanent Marker";
+}
+
+nav div a{
+    background-color:#301934;
+}
+
+nav a:link {
+    color: #570b7c;
+}
+
+nav a:visited {
+    color: violet;
+}
+
+header h1 {
+    font-family: Creepster;
+    color: #330527;
+    text-align: center;
+}
+
+#header_logo{
+   display: flex;
+   justify-content: center;
+}
+
+.band_members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: .125rem;
+    flex-direction: row;
+}
+
+.lead, .bassist, .guitarist, .drummer {
+    flex-basis: 10rem;
+}
+
+#band img {
+    width: 16rem;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#band .lead img{
+    width: 9rem;
+}
+
+#band h2 {
+    color:#7862c7;
+    font-family: "Bebas Neue";
+    text-decoration: underline;
+    text-align: center;
+}
+
+#band h3{
+    color:#338179fd;
+    font-family: "Permanent Marker";
+    text-decoration: underline;
+    text-align: center;
+}
+
+#band p {
+    font-family: "Bebas Neue";
+    color:#20180e;
+    font-size: 1.25rem;
+}
+
+#tour {
+    text-align: center;
+}
+
+#tour h1 {
+    font-family: Creepster;
+    color:#330527;
+    text-decoration: underline;
+}
+
+#tour h2 {
+    font-family: "Bebas Neue";
+    text-decoration: none;
+    color:#570b7c;
+}
