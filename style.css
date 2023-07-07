@@ -1,5 +1,5 @@
 * {
-    background-color:#f14abf;
+    background-color: #c7ecee;
 }
 
 nav div {
@@ -8,7 +8,7 @@ nav div {
     align-items: center;
     margin-left: 0;
     margin-right: 0;
-    background-color:#301934;
+    background-color: #4834d4;
 }
 
 nav p {
@@ -17,15 +17,15 @@ nav p {
 }
 
 nav div a{
-    background-color:#301934;
+    background-color: #4834d4;
 }
 
 nav a:link {
-    color: #570b7c;
+    color: #ffbe76;
 }
 
 nav a:visited {
-    color: violet;
+    color: #ff7979;
 }
 
 header h1 {
@@ -96,4 +96,150 @@ header h1 {
     font-family: "Bebas Neue";
     text-decoration: none;
     color:#570b7c;
+}
+
+#tour h3 {
+    text-decoration: none;
+}
+
+
+#tour hr {
+    color: #535c68;
+}
+
+#album h1 {
+    font-family: Creepster;
+    color:#330527;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#album h2 {
+    font-family: "Permanent Marker";
+}
+
+#album {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: .125rem;
+    flex-wrap: wrap;
+}
+
+#merch h1{
+    font-family: Creepster;
+    color:#330527;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.t_shirt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: .125rem;
+    flex-wrap: wrap;
+}
+
+.t_shirt image {
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.t_shirt h3{
+    height: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.t_shirt p{
+    height: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.long_sleeve {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: .125rem;
+    flex-wrap: wrap;
+}
+
+.long_sleeve image{
+    height:auto;
+    margin: auto;
+    display: block;
+}
+
+.long_sleeve h3{
+    height: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.long_sleeve p{
+    height: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.hat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: .125rem;
+    flex-wrap: wrap; 
+}
+
+.hat image{
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.hat h3{
+    height: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.hat p{
+    height: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+#contact h1{
+    text-align: center;
+    font-family: Creepster;
+    color:#330527;
+    text-decoration: underline;
+}
+
+.bottom{
+    background-color:#4834d4;
+    padding-top: 0rem;
+    position: static;
+    bottom: 0rem;
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom image{
+    height: 0.25rem;
+    background-color:#4834d4;
+    bottom: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
